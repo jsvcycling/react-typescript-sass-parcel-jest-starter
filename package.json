@@ -1,0 +1,49 @@
+{
+  "name": "react-typescript-sass-parcel-jest-starter",
+  "version": "1.0.0",
+  "description": "A starter project using ReactJS, TypeScript, SASS, Parcel, and Jest.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "parcel build src/index.tsx",
+    "serve": "parcel serve --host 0.0.0.0 src/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvcycling/react-typescript-sass-parcel-jest-starter.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "sass",
+    "parcel",
+    "jest",
+    "starter",
+    "template"
+  ],
+  "author": "Joshua Vega",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jsvcycling/react-typescript-sass-parcel-jest-starter/issues"
+  },
+  "homepage": "https://github.com/jsvcycling/react-typescript-sass-parcel-jest-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.52",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.5.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
